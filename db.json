@@ -1,0 +1,79 @@
+{
+  "restaurant": {
+    "id": 1,
+    "name": "The Spicy Spoon",
+    "description": "A modern twist on traditional Indian cuisine.",
+    "logo": "https://cdn.demo-restaurant.com/logo.png",
+    "coverImage": "https://cdn.demo-restaurant.com/cover.jpg",
+    "location": "Kolkata, India",
+    "rating": 4.6,
+    "openHours": {
+      "mon-sun": "11:00 AM - 11:00 PM"
+    }
+  },
+  "menuCategories": [
+    { "id": 1, "name": "Starters" },
+    { "id": 2, "name": "Main Course" },
+    { "id": 3, "name": "Biryani & Rice" },
+    { "id": 4, "name": "Desserts" },
+    { "id": 5, "name": "Beverages" }
+  ],
+  "menuItems": [
+    {
+      "id": 101,
+      "name": "Paneer Tikka",
+      "categoryId": 1,
+      "description": "Cottage cheese cubes grilled with spices",
+      "price": 250,
+      "image": "https://cdn.demo-restaurant.com/items/paneer_tikka.jpg",
+      "veg": true,
+      "spicy": true,
+      "rating": 4.5
+    },
+    {
+      "id": 201,
+      "name": "Butter Chicken",
+      "categoryId": 2,
+      "description": "Tender chicken in creamy tomato gravy",
+      "price": 320,
+      "image": "https://cdn.demo-restaurant.com/items/butter_chicken.jpg",
+      "veg": false,
+      "spicy": false,
+      "rating": 4.7
+    },
+    {
+      "id": 401,
+      "name": "Gulab Jamun",
+      "categoryId": 4,
+      "description": "Sweet fried dough soaked in syrup",
+      "price": 80,
+      "image": "https://cdn.demo-restaurant.com/items/gulab_jamun.jpg",
+      "veg": true,
+      "spicy": false,
+      "rating": 4.6
+    }
+  ],
+  "contact": {
+    "phone": "+91-9876543210",
+    "email": "info@spicyspoon.com",
+    "address": "Park Street, Kolkata - 700016",
+    "mapsLink": "https://goo.gl/maps/demo"
+  },
+  "bookings": [],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Ananya Roy",
+      "rating": 5,
+      "comment": "Amazing food and lovely ambiance!",
+      "date": "2025-07-30"
+    },
+    {
+      "id": 2,
+      "name": "Ravi Mehta",
+      "rating": 4,
+      "comment": "Paneer Tikka was heavenly!",
+      "date": "2025-07-28"
+    }
+  ]
+}
